@@ -1,18 +1,19 @@
 /*
- * File: 4-puts.c
- * auth: Eyob SIsay Tasew
- */
+ *  * File: 4-puts.c
+ *   * Auth: Eyob SIsay Tasew 
+ *    */
 
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main: prints Programming is like building a multilingual puzzle, followed by a new line.
+ *  * main - Prints "Programming is like building a multilingual
+ *                   puzzle, followed by a new line.
  *
- * return: always 0.
- */
+ * Return: Always 0.
+ *      */
 int main(void)
 {
-	puts("\""Programming is like building a multilingual puzzle");
-	
-	return (0);
+		puts("\"Programming is like building a multilingual puzzle");
+
+			return (0);
 }
