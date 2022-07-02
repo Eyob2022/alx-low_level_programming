@@ -1,45 +1,34 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 012 to 789.
- *
- * Return: Always 0 (Success)
+ * main - Writes 001 - 999
+ * 
+ * Return: 0 for success
  */
 int main(void)
 {
-int i, e, g;
+int i, j, k;
 
-i = 48;
-e = 48;
-g = 48;
-
-while (e < 58)
+for (i = '0'; i <= '9'; i++)
 {
-i = 48;
-while (i < 58)
+for (j = '0'; j <= '9'; j++)
 {
-g = 48;
-while (g < 58)
+for (k = '0'; k <= '9'; k++)
 {
-if (e != i && e != g && i != g && e < i && i < g)
+if ((i < j) & (j < k) & (k <= '9'))
 {
-putchar(e);
 putchar(i);
-putchar(g);
-{
-if (i == 56 && e == 55 && g == 57)
-{
-break;
-}
+putchar(j);
+putchar(k);
+
+if ((i + j + k) < 168)
+{																			
 putchar(',');
 putchar(' ');
 }
-g++;
-
 }
-i++;
 }
-e++;
+}
 }
 putchar('\n');
 return (0);
