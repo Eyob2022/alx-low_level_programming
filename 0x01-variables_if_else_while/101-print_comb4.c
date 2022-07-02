@@ -2,7 +2,6 @@
 
 /**
  * main - Writes 001 - 999
- * 
  * Return: 0 for success
  */
 int main(void)
@@ -22,7 +21,7 @@ putchar(j);
 putchar(k);
 
 if ((i + j + k) < 168)
-{																			
+{
 putchar(',');
 putchar(' ');
 }
