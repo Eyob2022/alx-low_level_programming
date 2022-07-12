@@ -1,3 +1,8 @@
+/*
+ * File: 4-print_rev.c
+ * Auth: Eyob sisay
+ */
+
 #include "main.h"
 
 /**
@@ -12,7 +17,7 @@ void print_rev(char *s)
 		len++;
 
 	for (index = len - 1; index >= 0; index--)
-		_putchar(s[index]);
+	_putchar(s[index]);
 
 	_putchar('\n');
 }
